@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,300italic,400italic,500,500italic,600,600italic,700,700italic);
+
+
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background-color: #fbfbfb;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+a{
+    cursor: pointer;
+}
+.container{
+  margin-top: 50PX;
+  width: 550px;
+}
+.form-control{
+  font-size: 13px;
+}
+.login{
+  background: #fff;
+  border-radius: 3px;
+  margin: 60px auto;
+  padding: 40px 20px;
+  box-shadow: 0px 5px 20px 3px rgba(0, 0, 0, 0.07);
+  background: rgba(255, 255, 255, 0.97);
+  border-left: 6px solid #f5be1a;
+}
+ .title-system{
+     font-size: 20px;
+     text-align:center;
+ }
+.icon{
+  background-color: #fff;
+  border: 2px solid #eaeaea;
+  box-shadow:none;
+  height: auto;
+  padding: 10px 12px;
+}
+#btnLogin{
+  background: #024ba2;
+  color: #fff;
+      padding: 8px 45px;
+      font-weight: 600;
+    text-transform: uppercase;
+    box-shadow: 0px 3px 2px 1px rgba(0, 0, 0, 0.08);transition: all 0.6s ease;
+}
+
+#btnLogin:hover{
+    background: #f5be1a;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.fa{
+  color: #bbbaba;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+.clearfix {
+    display: block;
+}
+.title-login{
+    margin: 24px auto;
+    text-align: center;
+    font-weight: 600;
+     /*text-transform: uppercase;*/ 
+    font-size: 16px;
+}
+.title-login:after {
+    display: inline-block;
+    margin: 0 0 4px 20px;
+    height: 2px;
+    content: " ";
+    text-shadow: none;
+    background-color: #f5be1b;
+    width: 40px;
+}
+.title-login:before {
+    display: inline-block;
+    margin: 0 20px 4px 0;
+    height: 2px;
+    content: " ";
+    text-shadow: none;
+    background-color: #f5be1b;
+    width: 40px;
+}

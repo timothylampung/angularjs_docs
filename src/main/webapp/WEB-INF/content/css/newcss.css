@@ -1,0 +1,369 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+legend{
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom: 0px; 
+    width: 30%; 
+    border: 1px solid #ddd;
+    border-radius: 4px; 
+    padding: 5px 5px 5px 10px; 
+    background-color: #f5f5f5;
+}
+fieldset
+{
+    border: 1px solid #ddd !important;
+    margin: 0;
+    padding: 10px;      
+    position: relative;
+    border-radius:4px;
+    background-color:#fff;
+    padding-left:10px!important;
+}
+label.min-height {
+    min-height: 38px;
+}
+
+#pak_aggrement_print {
+    display: none;
+}
+.p-label {
+    display: block;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.m-t-10 {
+    margin-top: 10px;
+
+}
+
+
+.panel-heading h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: normal;
+    width: 75%;
+    padding-top: 8px;
+}
+
+
+.panel-heading h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: normal;
+    width: 75%;
+    padding-top: 10px;
+}
+
+#ferryList, #ferryList2{
+    display: block;
+    overflow-x: scroll;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+.requerido{
+    color: red;
+}
+a.panel {
+    display: block;
+}
+
+a.btn.btn-custom {
+    border: 1px solid #80ccff;
+    border-radius: 15px;
+}
+
+.dot{
+    position: absolute;
+    left: 18%;
+}
+.dot1{
+    position: absolute;
+    left: 50%;
+}
+.dot2{
+    position: absolute;
+    left: 82%;
+}
+.dot3{
+    position: absolute;
+    left: 25%;
+}
+.dot4{
+    position: absolute;
+    left: 72%;
+}
+
+.line{
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+}
+
+.panel-heading h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: normal;
+    width: 75%;
+    padding-top: 8px;
+}
+
+table.borderless td,table.borderless th,table.borderless tr{
+    border: none !important;
+}
+
+.infrastructureAsset{
+    display: none;
+}
+.threatIdentification{
+    display: none;
+}
+.wnv{
+    display: none;
+}
+.clickable{
+    cursor: pointer;   
+}
+.panel-heading span {
+    margin-top: -20px;
+    font-size: 15px;
+}
+#circle {
+    width: 30px;
+    height: 30px;
+    background: yellow;
+    border-radius: 50px;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+}
+#circle1 {
+    width: 30px;
+    height: 30px;
+    background: green;
+    border-radius: 50px;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+}
+#circle2 {
+    width: 30px;
+    height: 30px;
+    background: red;
+    border-radius: 50px;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+}
+            
+            .dot{
+        position: absolute;
+        left: 18%;
+    }
+    .dot1{
+        position: absolute;
+        left: 50%;
+    }
+    .dot2{
+        position: absolute;
+        left: 82%;
+    }
+    .dot3{
+        position: absolute;
+        left: 25%;
+    }
+    .dot4{
+        position: absolute;
+        left: 72%;
+    }
+    fieldset 
+    {
+        border: 1px solid #ddd !important;
+        margin: 0;
+        xmin-width: 0;
+        padding: 10px;       
+        position: relative;
+        border-radius:4px;
+        background-color:#f5f5f5;
+        padding-left:10px!important;
+    }	
+
+    legend
+    {
+        font-size:14px;
+        font-weight:bold;
+        margin-bottom: 0px; 
+        width: 35%; 
+        border: 1px solid #ddd;
+        border-radius: 4px; 
+        padding: 5px 5px 5px 10px; 
+        background-color: #ffffff;
+    }
+    .line{
+        border-style: solid;
+        border-color: grey;
+        border-width: 1px;
+
+
+
+        .text-center>a{
+            margin-bottom: 5px;
+        }
+    }
+    .asterisk {
+       height: 5px;
+       color: red;
+    }
+
+    /*Now the CSS*/
+* {margin: 0; padding: 0;}
+
+.tree ul {
+    padding-top: 20px; position: relative;
+	
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+.tree li {
+	float: left; text-align: center;
+	list-style-type: none;
+	position: relative;
+	padding: 20px 5px 0 5px;
+	
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+/*We will use ::before and ::after to draw the connectors*/
+
+.tree li::before, .tree li::after{
+	content: '';
+	position: absolute; top: 0; right: 50%;
+	border-top: 1px solid #ccc;
+	width: 50%; height: 20px;
+}
+.tree li::after{
+	right: auto; left: 50%;
+	border-left: 1px solid #ccc;
+}
+
+/*We need to remove left-right connectors from elements without 
+any siblings*/
+.tree li:only-child::after, .tree li:only-child::before {
+	display: none;
+}
+
+/*Remove space from the top of single children*/
+.tree li:only-child{ padding-top: 0;}
+
+/*Remove left connector from first child and 
+right connector from last child*/
+.tree li:first-child::before, .tree li:last-child::after{
+	border: 0 none;
+}
+/*Adding back the vertical connector to the last nodes*/
+.tree li:last-child::before{
+	border-right: 1px solid #ccc;
+	border-radius: 0 5px 0 0;
+	-webkit-border-radius: 0 5px 0 0;
+	-moz-border-radius: 0 5px 0 0;
+}
+.tree li:first-child::after{
+	border-radius: 5px 0 0 0;
+	-webkit-border-radius: 5px 0 0 0;
+	-moz-border-radius: 5px 0 0 0;
+}
+
+/*Time to add downward connectors from parents*/
+.tree ul ul::before{
+	content: '';
+	position: absolute; top: 0; left: 50%;
+	border-left: 1px solid #ccc;
+	width: 0; height: 20px;
+}
+
+.tree li a{
+	border: 1px solid #ccc;
+	padding: 5px 10px;
+	text-decoration: none;
+	color: #666;
+	font-family: arial, verdana, tahoma;
+	font-size: 11px;
+	display: inline-block;
+	
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+/*Time for some hover effects*/
+/*We will apply the hover effect the the lineage of the element also*/
+.tree li a:hover, .tree li a:hover+ul li a {
+	background: #c8e4f8; color: #000; border: 1px solid #94a0b4;
+}
+/*Connector styles on hover*/
+.tree li a:hover+ul li::after, 
+.tree li a:hover+ul li::before, 
+.tree li a:hover+ul::before, 
+.tree li a:hover+ul ul::before{
+	border-color:  #94a0b4;
+}
+
+.chip {
+    display: inline-block;
+    padding: 0 10px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.chip:hover{
+    color:#5bc0de;
+}
+
+.fieldset-white {
+    background: whitesmoke;
+}
+
+
+.closebtn {
+    padding-left: 10px;
+    color: #888;
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.closebtn:hover {
+    color: #000;
+}
+
+
+.not-found {
+    font-style: oblique;
+    color: red;
+}
+/*Thats all. I hope you enjoyed it.
+Thanks :)*/
